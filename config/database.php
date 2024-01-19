@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'myIbmi'),
+    'default' => env('DB_CONNECTION', 'db2'),
 
     /*
     |--------------------------------------------------------------------------
@@ -63,16 +63,16 @@ return [
             ]) : [],
         ],
 
-        'myIbmi' => [
-            'driver' => 'mysql',
+        'db2' => [
+            'driver' => 'ibm',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host' => env('DB_HOST', '10.0.0.21'),
+            'port' => env('DB_PORT', '25000'),
+            'database' => env('DB_DATABASE', 'NOWTEST'),
+            'username' => env('DB_USERNAME', 'db2admin'),
+            'password' => env('DB_PASSWORD', 'Sunkam@24809'),
             'unix_socket' => env('DB_SOCKET', ''),
-            'charset' => 'utf8mb4',
+            'charset' => 'utf8',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
             'prefix_indexes' => true,
