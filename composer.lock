@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe33f98a750b8c5a51b30c78bd3fab21",
+    "content-hash": "4d50bf88452ad67786b430de71157a44",
     "packages": [
         {
             "name": "brick/math",
@@ -548,6 +548,53 @@
                 }
             ],
             "time": "2023-06-01T07:04:22+00:00"
+        },
+        {
+            "name": "erykai/database",
+            "version": "v1.4.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Erykai/database.git",
+                "reference": "1d72e916fc438b4cde7a1dd507c17e71ed778b2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Erykai/database/zipball/1d72e916fc438b4cde7a1dd507c17e71ed778b2d",
+                "reference": "1d72e916fc438b4cde7a1dd507c17e71ed778b2d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Erykai\\Database\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alexdeovidal",
+                    "email": "contato@webav.com.br"
+                }
+            ],
+            "description": "Responsible for making CRUD with database, using PDO, compatible with: Cubrid, FreeTDS / Microsoft SQL Server / Sybase, Firebird, IBM DB2, IBM Informix Dynamic Server, MySQL 3.x/4.x/5.x, Oracle Call Interface, ODBC v3 (IBM DB2, unixODBC and win32 ODBC), PostgreSQL, SQLite 3 and SQLite 2, Microsoft SQL Server / SQL Azure e MariaDB",
+            "support": {
+                "issues": "https://github.com/Erykai/database/issues",
+                "source": "https://github.com/Erykai/database/tree/v1.4.7"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Erykai",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-04-12T20:00:24+00:00"
         },
         {
             "name": "fruitcake/php-cors",
